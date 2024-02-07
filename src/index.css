@@ -8,11 +8,6 @@
   src: url("../fonts/stacker.ttf");
 }
 
-.clipText {
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 body {
   --black: #111111;
   --white: #fdfdfd;
@@ -21,14 +16,11 @@ body {
   --purple: #6f07d6;
   --pink: #eb37c5;
 
-  margin: 0;
-  padding: 0;
   background-color: var(--black);
-  padding-bottom: 100px;
+}
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+/* for hero */
+.clipText {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

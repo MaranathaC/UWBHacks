@@ -6,6 +6,8 @@ export default {
   ],
   theme: {
     colors: {
+      'black': '#111111',
+      'white': '#fdfdfd',
       'pink': '#eb37c5',
       'purple': '#6f07d6',
       'blue': '#2503fb',
